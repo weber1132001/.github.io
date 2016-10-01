@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+<form>
+<h1>種子</h1>
+<select name="ONE">
+<option value="spinach">菠菜</option>
+<option value="lettuce">萵苣</option>
+<option value="corn">玉米</option>
+<option value="tomato">番茄</option>
+</select>
+</form>
+<hr size=1>
+<form>
+<label for="bookdate">日期：</label>
+<input type="date" id="bookdate" placeholder="">
+</form>
+
+
+
+
+<form action="test.php" method="post">
+　姓 　　名：<input type="text" name="UserName"><br>
+　補充內容：<textarea name="Content"></textarea><br>
+　<input type="submit" value="送出表單">
+</form>
+
+
+<script language="Javascript1.2"> 
+
+var message = "列印此頁"; 
+ 
+function printpage() { 
+window.print();   
+} 
+ 
+document.write("<center><form><input type=button " 
++"value=\""+message+"\" onClick=\"printpage()\"></form></center>"); 
+ 
+</script> 
+
+</html>
